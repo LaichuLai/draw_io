@@ -1,1 +1,159 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T10:34:27.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="17.1.3" etag="03SPMuH-FlTRnofAqNyH" type="github"><diagram id="bRs48wQKyAXxtzH28FtH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-20T10:34:47.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YeNG0aJtwxocOSXXCL3K" version="17.1.3" type="github">
+  <diagram id="bRs48wQKyAXxtzH28FtH" name="Page-1">
+    <mxGraphModel dx="3996" dy="2751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-5" target="Z1Fzheb-58GHqpxP_FSt-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-5" target="Z1Fzheb-58GHqpxP_FSt-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-5" target="Z1Fzheb-58GHqpxP_FSt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-5" target="Z1Fzheb-58GHqpxP_FSt-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-5" value="User open App" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-7" target="Z1Fzheb-58GHqpxP_FSt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-7" value="Clock in" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-10" target="Z1Fzheb-58GHqpxP_FSt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-10" target="Z1Fzheb-58GHqpxP_FSt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-10" value="If&lt;br&gt;&amp;nbsp;user.sleep_records.last.present?&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;&amp;nbsp;user.sleep_records.last.created_at != nil" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-253.75" y="450" width="367.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-11" value="SleepRecord.create" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-12" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="123.5" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-13" value="user.sleep_record.last.update" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="770" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-15" target="Z1Fzheb-58GHqpxP_FSt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-15" value="Check Clock in index" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-16" value="user.sleep_records.all" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-18" target="Z1Fzheb-58GHqpxP_FSt-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-18" value="Follow friend&lt;br&gt;name: &#39;Andy&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-21" target="Z1Fzheb-58GHqpxP_FSt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-21" target="Z1Fzheb-58GHqpxP_FSt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-21" value="if &lt;br&gt;user.user_follows.map(&amp;amp;:follower_id).include?(friend.id)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="5" width="420" height="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-22" value="UserFollow.create(user, follower)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="280" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-23" value="&lt;span style=&quot;&quot;&gt;return &quot;already followed&quot;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="56.25" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-24" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-25" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="721" y="191" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-26" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="22.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-29" target="Z1Fzheb-58GHqpxP_FSt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-29" target="Z1Fzheb-58GHqpxP_FSt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-29" value="friend = User.find_by(name: &#39;Andy&#39;)&lt;br&gt;If friend.present?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="10" width="260" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-30" value="return &#39;user no found&#39;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-31" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-32" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-34" target="Z1Fzheb-58GHqpxP_FSt-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="-345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-34" value="unfollow friend&lt;br&gt;name: &#39;Andy&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-37" target="Z1Fzheb-58GHqpxP_FSt-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-37" target="Z1Fzheb-58GHqpxP_FSt-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-37" value="if &lt;br&gt;user.user_follows.map(&amp;amp;:follower_id).include?(friend.id)&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-390" width="420" height="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-38" value="user_follow.update(user, follower, unfollowed)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-343.75" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-39" value="&lt;span style=&quot;&quot;&gt;return &#39;not followed yet&#39;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-114" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-40" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="721" y="-204" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-41" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-44" target="Z1Fzheb-58GHqpxP_FSt-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-44" target="Z1Fzheb-58GHqpxP_FSt-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-44" value="friend = User.find_by(name: &#39;Andy&#39;)&lt;br&gt;If friend.present?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-385" width="260" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-45" value="return &#39;user no found&#39;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-46" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-47" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-355" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
