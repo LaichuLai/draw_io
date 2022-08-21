@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T10:54:57.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yL6wa0QMSzZjAVZgXedL" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T14:51:02.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OE28yTdORd5QaDEZPqbI" version="17.1.3" type="github">
   <diagram id="bRs48wQKyAXxtzH28FtH" name="Page-1">
-    <mxGraphModel dx="3204" dy="2356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2728" dy="2321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,11 +42,11 @@
         <mxCell id="Z1Fzheb-58GHqpxP_FSt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z1Fzheb-58GHqpxP_FSt-10" target="Z1Fzheb-58GHqpxP_FSt-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z1Fzheb-58GHqpxP_FSt-10" value="If&lt;br&gt;&amp;nbsp;user.sleep_records.last.present?&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;&amp;nbsp;user.sleep_records.last.created_at != nil" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="450" width="367.5" height="220" as="geometry" />
+        <mxCell id="Z1Fzheb-58GHqpxP_FSt-10" value="last_record =&amp;nbsp;&amp;nbsp;user.sleep_records.last&lt;br&gt;&lt;br&gt;If&lt;br&gt;&amp;nbsp;user.last_record.present?&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;last_record.created_at != last_record.updated_at" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="450" width="387.5" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Z1Fzheb-58GHqpxP_FSt-11" value="SleepRecord.create" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-56.25" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="-56.25" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z1Fzheb-58GHqpxP_FSt-12" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-122.75" y="520" width="60" height="30" as="geometry" />
